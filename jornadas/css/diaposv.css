@@ -47,7 +47,8 @@ body {
   will-change: color;
   transition: color 0.25s ease-out;
 
-  font-weight: 700;
+  font-weight: 100;
+  font-size: 22px;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
