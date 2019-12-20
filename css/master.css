@@ -24,9 +24,6 @@ body {
   font-weight: 700;
 }
 
-.logo {
-
-}
 
 .imglogo{
   max-width:100%;
@@ -38,6 +35,17 @@ body {
  
 }
 
+td{
+  position: relative;
+}
+.responsive{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: flex;
+ 
+}
 
 h1 {
 	color: #757575;
@@ -125,6 +133,12 @@ label .fa {
   
   .tab_container {
     width: 98%;
+  }
+  .responsive{
+    width: 150%;
+  }
+  #fototab{
+    display: none;
   }
 }
 
