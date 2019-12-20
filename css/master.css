@@ -278,10 +278,10 @@ label .fa {
   
   /* Caption text */
   .text {
-    color: #f2f2f2;
+    color: black;
     font-size: 15px;
     padding: 8px 12px;
-    position: absolute;
+    position: relative;
     bottom: 8px;
     width: 100%;
     text-align: center;
@@ -329,3 +329,27 @@ label .fa {
     from {opacity: .4}
     to {opacity: 1}
   }
+
+
+  /* Para que aparezca un texto sobre la imagen */
+ 
+  /* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: relative;
+  bottom: 66px;   /* que aparezca justo donde termina la imagen*/
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.mySlides:hover .overlay {
+  opacity: 1;
+}

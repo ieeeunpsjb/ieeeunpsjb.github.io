@@ -37,35 +37,38 @@
 	
 	<div class="mySlides fade">
 	  <div class="numbertext">1 / 3</div>
-	  <img src="Files/news/1.1.jpeg" style="width:100%">
-	  <div class="text">Caption Text</div>
+	  <img src="Files/news/1.jpg" style="width:100%">
+	  <div class="overlay">5ta Jornada de Electrónica</div>
 	</div>
   
 	<div class="mySlides fade">
 	  <div class="numbertext">2 / 3</div>
-	  <img src="Files/news/2.2.jpg" style="width:100%">
-	  <div class="text">Caption Two</div>
+	  <img src="Files/news/2.jpg" style="width:100%">
+	  <div class="overlay">RNR 2019</div>
 	</div>
   
 	<div class="mySlides fade">
 	  <div class="numbertext">3 / 3</div>
-	  <img src="Files/news/3 (1).jpg" style="width:100%">
-	  <div class="text">Caption Three</div>
+	  <img src="Files/news/3.jpg" style="width:100%">
+	  <div class="overlay">Charla Mg. Santiago Murano</div>
 	</div>
+
   
 	<!-- Next and previous buttons -->
-	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	<!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a> -->
   <div>
   <br>
   
   <!-- The dots/circles -->
-  <div style="text-align:center">
+  <!-- <div style="text-align:center">
 	<span class="dot" onclick="currentSlide(1)"></span>
 	<span class="dot" onclick="currentSlide(2)"></span>
 	<span class="dot" onclick="currentSlide(3)"></span>
-  </div> 
-  <script>
+  </div>  -->
+ 
+  <!-- Script para que las imagenes se pasen solas -->
+ <script>
 	var slideIndex = 1;
 	showSlides(slideIndex);
 	
@@ -92,8 +95,8 @@
 	  slides[slideIndex-1].style.display = "block";  
 	  dots[slideIndex-1].className += " active";
 	}
-	var slideIndex = 0;
-showSlides();
+
+var slideIndex = 0;
 
 function showSlides() {
   var i;
@@ -104,10 +107,18 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
 } 
 	</script>
 	
+	<div>
+	<div style="text-align: left;"> <h3>5tas Jornadas de Electrónica- FI UNPSJB</h3><img src="Files/news/1.jpg" style="width:50%"><img src="Files/news/1.jpg" style="width:50%">	</div>
+	<div>				
+		<p align="justify">Las Jornadas de Electrónica consisten en la difusión de las actividades de grupos de investigación del Departamento de Electrónica y de estudiantes de posgrado, así como también las experiencias y desarrollos de profesionales de entidades relacionadas con las áreas de interés de la carrera.
+			Durante los días 28 y 29 de Noviembre contamos con presencia de disertantes alumnos, profesores y de las empresas YPF LUZ, Hychico CAPSA, NRG Patagonia, AESA YPF. <a href="/jornadas/index.html">Página Web de la 5ta Jornada</a></p></div>
+			<h3>Estudios de Posgrado en el Exterior.</h3>
+			<p align="justify">El día Viernes 23/08/2019 se realizó la charla: "Estudios de posgrado y experiencias de investigación: En Alcalá de Henares, España". Dónde el Mg. Ing. Santiago Murano conto su experiencia del doctorado que está realizando en España. **Foto</p>
+		</div>
 			</section>
 
 			<section id="content2" class="tab-content">
@@ -202,7 +213,7 @@ Ser miembro o voluntario tiene múltiplos beneficios como:
 				</div>
 			</footer>		
 		<p class="no_wrap">
-  Rama Estudiantil IEEE UNPSJB - Comodoro Rivadavia - Chubut - Argentina - 2019
+  Rama Estudiantil IEEE UNPSJB - Chubut - Argentina - 2019
 </p>
 
 <!--<p class="link">
