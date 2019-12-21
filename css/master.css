@@ -153,7 +153,7 @@ label {
   -moz-animation: fadeInScale 0.7s ease-in-out;
   animation: fadeInScale 0.7s ease-in-out;
 }
-.tab_container .tab-content h3  {
+.tab_container .tab-content h3 {
   text-align: center;
   font-weight: 700;
   color: #00629B;
@@ -187,6 +187,7 @@ label .fa {
   }
   #fototab{
     display: none;
+    width: 80%;
   }
   .imglogo {
     max-width:100%;
