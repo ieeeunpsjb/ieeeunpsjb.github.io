@@ -3,28 +3,28 @@
 *,
 *:after,
 *:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .clearfix:before,
 .clearfix:after {
-	content: " ";
-	display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-	clear: both;
+  clear: both;
 }
 
 body {
-	font-family: sans-serif;
-	background: #f6f9fa;
+  font-family: sans-serif;
+  background: #f6f9fa;
   font-weight: 700;
 }
 
-.logo{
+.logo {
   display: -webkit-inline-flex;
   display: flex;
   -webkit-flex-direction: row;
@@ -37,7 +37,7 @@ body {
   -ms-flex-pack: center;
   justify-content: space-around;
   -webkit-align-content: flex-start;
-   -ms-flex-line-pack: start; 
+  -ms-flex-line-pack: start;
   align-content: center;
   -webkit-align-items: baseline;
   -ms-flex-align: baseline;
@@ -46,14 +46,14 @@ body {
 }
 
 .imglogo {
-  max-width:100%;
-  max-height:100%;
+  max-width: 100%;
+  max-height: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  
-  
+
+
 }
 
 /* .imglogo{
@@ -65,38 +65,39 @@ body {
   width: 50%;
 } */
 
-.pie{
-  max-width:100%;
-  max-height:100%;
+.pie {
+  max-width: 100%;
+  max-height: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
 
-.pielogo{
-  max-width:100%;
-  max-height:100%;
+.pielogo {
+  max-width: 100%;
+  max-height: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
 }
 
-td{
+td {
   position: relative;
 }
-.responsive{
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    max-height: 100%;
-    display: flex;
- 
+
+.responsive {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  display: flex;
+
 }
 
 h1 {
-	color: #757575;
+  color: #757575;
   text-align: center;
   font-weight: 700;
 }
@@ -107,13 +108,14 @@ a {
 
 /*Fun begins*/
 .tab_container {
-	width: 90%;
-	margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
   padding-top: 1em;
-	position: relative;
+  position: relative;
 }
 
-input, section {
+input,
+section {
   clear: both;
   padding-top: 10px;
   display: none;
@@ -133,12 +135,11 @@ label {
   background: #f0f0f0;
 }
 
-#tab1:checked ~ #content1,
-#tab2:checked ~ #content2,
-#tab3:checked ~ #content3,
-#tab4:checked ~ #content4,
-#tab5:checked ~ #content5
-{
+#tab1:checked~#content1,
+#tab2:checked~#content2,
+#tab3:checked~#content3,
+#tab4:checked~#content4,
+#tab5:checked~#content5 {
   display: block;
   padding: 20px;
   background: #fff;
@@ -148,23 +149,26 @@ label {
 }
 
 .tab_container .tab-content p,
-.tab_container .tab-content h3, .slideshow-container , li{
+.tab_container .tab-content h3,
+.slideshow-container,
+li {
   -webkit-animation: fadeInScale 0.7s ease-in-out;
   -moz-animation: fadeInScale 0.7s ease-in-out;
   animation: fadeInScale 0.7s ease-in-out;
 }
+
 .tab_container .tab-content h3 {
   text-align: center;
   font-weight: 700;
   color: #00629B;
 }
 
-.tab_container [id^="tab"]:checked + label {
+.tab_container [id^="tab"]:checked+label {
   background: #fff;
   box-shadow: inset 0 3px #00629B;
 }
 
-.tab_container [id^="tab"]:checked + label .fa {
+.tab_container [id^="tab"]:checked+label .fa {
   color: #00629B;
 }
 
@@ -178,48 +182,52 @@ label .fa {
   label span {
     display: none;
   }
-  
+
   .tab_container {
     width: 98%;
   }
-  .responsive{
+
+  .responsive {
     width: 150%;
   }
-  #fototab{
+
+  #fototab {
     display: none;
     width: 80%;
   }
+
   .imglogo {
-    max-width:100%;
-    max-height:100%;
+    max-width: 100%;
+    max-height: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    
-    
+
+
   }
 }
 
 /*Content Animation*/
 @keyframes fadeInScale {
   0% {
-  	transform: scale(0.9);
-  	opacity: 0;
+    transform: scale(0.9);
+    opacity: 0;
   }
-  
+
   100% {
-  	transform: scale(1);
-  	opacity: 1;
+    transform: scale(1);
+    opacity: 1;
   }
 }
 
 .no_wrap {
-  text-align:center;
+  text-align: center;
   color: #00629B;
 }
+
 .link {
-  text-align:center;
+  text-align: center;
 }
 
 /*Para hacer reflexivo los iconos de las redes*/
@@ -239,13 +247,13 @@ label .fa {
   -ms-flex-pack: center;
   justify-content: space-around;
   -webkit-align-content: flex-start;
-   -ms-flex-line-pack: start; 
+  -ms-flex-line-pack: start;
   align-content: center;
   -webkit-align-items: baseline;
   -ms-flex-align: baseline;
   align-items: baseline;
   text-align: center;
-  
+
 }
 
 .flex-item:nth-child(1) {
@@ -259,9 +267,9 @@ label .fa {
   -ms-flex-item-align: start;
   align-self: auto;
   padding: 1em 1em 1em 1em;
-  }
+}
 
-  
+
 .flex-item:nth-child(2) {
   -webkit-order: 0;
   -ms-flex-order: 0;
@@ -273,7 +281,7 @@ label .fa {
   -ms-flex-item-align: auto;
   align-self: auto;
   padding: 1em 1em 1em 1em;
-  
+
 }
 
 .flex-item:nth-child(3) {
@@ -287,138 +295,155 @@ label .fa {
   -ms-flex-item-align: auto;
   align-self: auto;
   padding: 1em 1em 1em 1em;
-  }
-  
+}
+
 /*Para hacer responsivo el iframe*/
-  .iframe-container {
-    overflow: hidden;
-    padding-top: 56.25%;
-    position: relative;
-  }
-   
-  .iframe-container iframe {
-     border: 0;
-     height: 100%;
-     left: 0;
-     position: absolute;
-     top: 0;
-     width: 100%;
-  }
-   
-  /* 4x3 Aspect Ratio */
-  .iframe-container-4x3 {
-    padding-top: 75%;
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 {
+  padding-top: 75%;
+}
+
+/* Para presentacion de imagenes como diapositivas*/
+* {
+  box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
   }
 
-  /* Para presentacion de imagenes como diapositivas*/
-  * {box-sizing:border-box}
+  to {
+    opacity: 1
+  }
+}
 
-  /* Slideshow container */
-  .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
-    color: black;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: relative;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+@keyframes fade {
+  from {
+    opacity: .4
   }
 
+  to {
+    opacity: 1
+  }
+}
 
-  /* Para que aparezca un texto sobre la imagen */
- 
-  /* The overlay effect - lays on top of the container and over the image */
+
+/* Para que aparezca un texto sobre la imagen */
+
+/* The overlay effect - lays on top of the container and over the image */
 .overlay {
   position: relative;
-  bottom: 66px;   /* que aparezca justo donde termina la imagen*/
+  bottom: 66px;
+  /* que aparezca justo donde termina la imagen*/
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black see-through */
   color: #f1f1f1;
   width: 100%;
   transition: .5s ease;
-  opacity:0;
+  opacity: 0;
   color: white;
   font-size: 20px;
   padding: 20px;
