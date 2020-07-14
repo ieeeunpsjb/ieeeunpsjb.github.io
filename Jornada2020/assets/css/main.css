@@ -72,6 +72,16 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* ! */
+.temas{
+	list-style-type: disc;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+	list-style-position: inside;
+	text-align: left;
+}
+
 /* Basic */
 
 	html {
