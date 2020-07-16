@@ -179,9 +179,8 @@ textarea {
 }
 
 .fechas{
-	/* Para las fechas y requisitos */
+	/* Para las fechas*/
 	list-style-type: none; /* Remove bullets */
-	padding-bottom:0.5em;
 	margin: 0; /* Remove margins */
 	text-align: left;
 }
