@@ -3308,6 +3308,7 @@ button:disabled,
 	-moz-transition: none !important;
 	-ms-transition: none !important;
 	-o-transition: none !important;
+	opacity: 1;
 }
 
 #header .inner .actions {
@@ -3361,6 +3362,7 @@ body.is-preload #header .inner {
 	-moz-transition: none !important;
 	-ms-transition: none !important;
 	-o-transition: none !important;
+	opacity: 1;
 }
 
 body.is-preload #header .inner .actions {
@@ -3369,6 +3371,7 @@ body.is-preload #header .inner .actions {
 	-ms-transform: translateY(30em);
 	transform: translateY(30em);
 	opacity: 0; */
+	opacity: 1;
 }
 
 body.is-preload #header:after {
