@@ -1191,11 +1191,11 @@
 		#header {
 			.inner {
 				@include vendor('transform', 'scale(1.05)');
-				opacity: 1;
+				opacity: 0;
 
 				.actions {
 					@include vendor('transform', 'translateY(30em)');
-					opacity: 1;
+					opacity: 0;
 				}
 			}
 
