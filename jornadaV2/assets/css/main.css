@@ -3289,7 +3289,7 @@ button:disabled,
 
 #header .inner {
 	/* SIn transcicion */
-	/* -moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
+	-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
 	-webkit-transition: -webkit-transform 1.5s ease, opacity 2s ease;
 	-ms-transition: -ms-transform 1.5s ease, opacity 2s ease;
 	transition: transform 1.5s ease, opacity 2s ease;
@@ -3303,21 +3303,14 @@ button:disabled,
 	transform: scale(1);
 	opacity: 1;
 	position: relative;
-	z-index: 1; */
-	-webkit-transition: none !important;
-	-moz-transition: none !important;
-	-ms-transition: none !important;
-	-o-transition: none !important;
-	opacity: 1;
+	z-index: 1;
+
 }
 
 #header .inner .actions {
-	-webkit-transition: none !important;
-	-moz-transition: none !important;
-	-ms-transition: none !important;
-	-o-transition: none !important;
 
-	/* -moz-transition: -moz-transform 1.25s ease;
+
+	-moz-transition: -moz-transform 1.25s ease;
 	-webkit-transition: -webkit-transform 1.25s ease;
 	-ms-transition: -ms-transform 1.25s ease;
 	transition: transform 1.25s ease;
@@ -3329,18 +3322,15 @@ button:disabled,
 	-webkit-transform: translateY(0);
 	-ms-transform: translateY(0);
 	transform: translateY(0);
-	opacity: 1; */
+	opacity: 1;
 }
 
 #header:after {
-	/* -moz-transition: opacity 1s ease;
+	-moz-transition: opacity 1s ease;
 	-webkit-transition: opacity 1s ease;
 	-ms-transition: opacity 1s ease;
-	transition: opacity 1s ease; */
-	-webkit-transition: none !important;
-	-moz-transition: none !important;
-	-ms-transition: none !important;
-	-o-transition: none !important;
+	transition: opacity 1s ease;
+
 
 	background-image: linear-gradient(45deg, #4fa49a, #4361c2);
 	content: '';
@@ -3362,7 +3352,7 @@ body.is-preload #header .inner {
 	-moz-transition: none !important;
 	-ms-transition: none !important;
 	-o-transition: none !important;
-	opacity: 1;
+	opacity: 0;
 }
 
 body.is-preload #header .inner .actions {
@@ -3371,11 +3361,11 @@ body.is-preload #header .inner .actions {
 	-ms-transform: translateY(30em);
 	transform: translateY(30em);
 	opacity: 0; */
-	opacity: 1;
+	opacity: 0;
 }
 
 body.is-preload #header:after {
-	opacity: 1;
+	opacity: 0;
 }
 
 /* Footer */
