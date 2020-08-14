@@ -293,7 +293,6 @@ body.is-preload *:after {
 	-webkit-transition: none !important;
 	-ms-transition: none !important;
 	transition: none !important;
-	opacity: 1;
 }
 
 body,
