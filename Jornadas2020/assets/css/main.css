@@ -178,26 +178,103 @@ textarea {
 	text-align: left;
 }
 
-.fechas{
+.fechas {
 	/* Para las fechas*/
-	list-style-type: none; /* Remove bullets */
-	margin: 0; /* Remove margins */
+	list-style-type: none;
+	/* Remove bullets */
+	margin: 0;
+	/* Remove margins */
 	text-align: left;
 }
 
 
-.titulos{
+.titulos {
 	text-align: left;
 }
 
-.btnInsc{
+.btnInsc {
 	color: white;
-	background-color: #4361c2;
+	background-color: #1aa3ff;
+	width: 60%;
+	height: 50%;
+	text-align: center !important;
 
 }
+
 .btnInsc:hover {
-	color: #333;
+	background-color: #33ccff;
 }
+
+.disertantes {
+	margin: 0 0 0 0;
+	font-weight: 1000;
+}
+
+.char {
+	/*text-align: left;*/
+	color: darkviolet;
+	font-weight: bold;
+	margin: 0 0 0em 0;
+	font-size: small;
+	text-align: center;
+}
+
+.dia {
+	text-align: left;
+	font-size: xx-large;
+	font-weight: bold;
+	color: #1aa3ff !important;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+	background-color: transparent;
+	color: transparent;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	outline: none;
+	padding-bottom: 0;
+	text-transform: none;
+	padding-left: 0;
+
+}
+
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+	background-color: rgba(255, 255, 255, 0.125);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+	display: none;
+	overflow: hidden;
+	background-color: transparent;
+	text-align: left;
+	font-weight: 400;
+
+}
+
+.collapsible:after {
+	content: '+';
+	/* Unicode character for "plus" sign (+) */
+	font-size: 20px;
+	color: white;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "-";
+	/* Unicode character for "minus" sign (-) */
+}
+
+
+
 
 /* Basic */
 
@@ -2544,8 +2621,12 @@ input[type="radio"]+label:before {
 }
 
 .image.fit img {
-	width: 100%;
+	width: 50%;
+	height: 50%;
+	margin: auto;
 }
+
+
 
 /* List */
 
@@ -2660,6 +2741,14 @@ ul.actions.fit.stacked {
 }
 
 @media screen and (max-width: 480px) {
+
+
+	.image.fit img {
+		width: 35%;
+		height: 35%;
+		margin: auto;
+	}
+
 
 	ul.actions:not(.fixed) {
 		-moz-flex-direction: column;
@@ -2854,7 +2943,9 @@ button,
 	border-radius: 4px;
 	border: 0;
 	box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.5);
-	color: #555 /* !important si se rompe algo */;
+	color: #555
+		/* !important si se rompe algo */
+	;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 0.9em;
@@ -2867,7 +2958,7 @@ button,
 	text-decoration: none;
 	text-indent: 0.125em;
 	text-transform: uppercase;
-	white-space: nowrap;
+	white-space: normal;
 }
 
 input[type="submit"]:hover,
@@ -2980,8 +3071,10 @@ button:disabled,
 	background-color: #333;
 	color: rgba(255, 255, 255, 0.75);
 	background-attachment: fixed, fixed;
-	background-image: url("../../images/hires.png"), url("../../images/header.jpg");
+	background-image: linear-gradient(45deg, #6dc0f0 5%, #345a92 30%, #6943c2);
+	/* background-image:  url("../../images/fondo.png") ; */
 	background-size: auto, cover;
+	backdrop-filter: blur(10px);
 }
 
 .main.style2 a {
@@ -3016,7 +3109,8 @@ button:disabled,
 .main.style2 input[type="button"],
 .main.style2 button,
 .main.style2 .button {
-	box-shadow: inset 0 0 0 1px #ffffff;
+	box-shadow: inset 0 0 0 1px transparent;
+	text-align: left;
 	color: #ffffff !important;
 }
 
@@ -3024,9 +3118,9 @@ button:disabled,
 .main.style2 input[type="reset"]:hover,
 .main.style2 input[type="button"]:hover,
 .main.style2 button:hover,
-.main.style2 .button:hover {
-	background-color: rgba(255, 255, 255, 0.125);
-}
+/* .main.style2 .button:hover {
+	/* background-color: rgba(255, 255, 255, 0.125); 
+} */
 
 .main.style2 input[type="submit"]:active,
 .main.style2 input[type="reset"]:active,
@@ -3206,7 +3300,8 @@ button:disabled,
 }
 
 #header .inner {
-	-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
+	/* SIn transcicion */
+	/* -moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
 	-webkit-transition: -webkit-transform 1.5s ease, opacity 2s ease;
 	-ms-transition: -ms-transform 1.5s ease, opacity 2s ease;
 	transition: transform 1.5s ease, opacity 2s ease;
@@ -3217,13 +3312,17 @@ button:disabled,
 	-moz-transform: scale(1);
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
-	transform: scale(1);
+	transform: scale(1); */
+
 	opacity: 1;
 	position: relative;
 	z-index: 1;
+
 }
 
 #header .inner .actions {
+
+	/* 
 	-moz-transition: -moz-transform 1.25s ease;
 	-webkit-transition: -webkit-transform 1.25s ease;
 	-ms-transition: -ms-transform 1.25s ease;
@@ -3235,15 +3334,17 @@ button:disabled,
 	-moz-transform: translateY(0);
 	-webkit-transform: translateY(0);
 	-ms-transform: translateY(0);
-	transform: translateY(0);
+	transform: translateY(0); */
+
 	opacity: 1;
 }
 
 #header:after {
-	-moz-transition: opacity 1s ease;
+	/* -moz-transition: opacity 1s ease;
 	-webkit-transition: opacity 1s ease;
 	-ms-transition: opacity 1s ease;
 	transition: opacity 1s ease;
+	 */
 	background-image: linear-gradient(45deg, #4fa49a, #4361c2);
 	content: '';
 	height: 100%;
@@ -3255,33 +3356,39 @@ button:disabled,
 }
 
 body.is-preload #header .inner {
-	-moz-transform: scale(1.05);
+	/* -moz-transform: scale(1.05);
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
-	opacity: 0;
+	opacity: 0; */
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+	opacity: 1;
 }
 
 body.is-preload #header .inner .actions {
-	-moz-transform: translateY(30em);
+	/* -moz-transform: translateY(30em);
 	-webkit-transform: translateY(30em);
 	-ms-transform: translateY(30em);
 	transform: translateY(30em);
+	opacity: 0; */
 	opacity: 0;
 }
 
 body.is-preload #header:after {
-	opacity: 1;
+	opacity: 0;
 }
 
 /* Footer */
 /* Fondopie */
 #footer {
-	padding: 9em 0 9em 0;
-	background-color: #7866c5;
+	padding: 2em 0 2em 0;
+	/* background-color:violet; */
 	color: rgba(255, 255, 255, 0.75);
 	background-attachment: fixed, fixed, fixed;
-	background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #6dc0f0 5%, #345a92 30%, #6943c2);
+	background-image: linear-gradient(#6dc0f0 15%, #345a92 30%, #6943c2);
 	background-position: top left, center center, center center;
 	background-size: auto, cover, cover;
 	overflow: hidden;
@@ -3490,6 +3597,12 @@ body.is-preload #header:after {
 
 @media screen and (max-width: 980px) {
 
+	.image.fit img {
+		width: 35%;
+		height: 35%;
+		margin: auto;
+	}
+
 	/* List */
 
 	ul.major-icons li {
@@ -3539,6 +3652,14 @@ body.is-preload #header:after {
 @media screen and (max-width: 736px) {
 
 	/* Basic */
+
+	.image.fit img {
+		width: 35%;
+		height: 35%;
+		margin: auto;
+	}
+
+
 
 	body,
 	input,
