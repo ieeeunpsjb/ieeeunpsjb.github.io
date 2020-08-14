@@ -3353,7 +3353,7 @@ body.is-preload #header .inner {
 	-moz-transition: none !important;
 	-ms-transition: none !important;
 	-o-transition: none !important;
-	opacity: 0;
+	opacity: 1;
 }
 
 body.is-preload #header .inner .actions {
