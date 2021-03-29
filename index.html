@@ -26,440 +26,597 @@
  *              <'
  */
 
-
-
 https://github.com/danielulloa
 https://github.com/dcaamina
 https://github.com/sanntin
 https://github.com/vyrodriguez
 
-
+=============================
+|  you have been pwned br0	|
+| https://github.com/igr91/ |
+|		  27/03/2021		|
+=============================
 
 -->
 
-
-
 <!DOCTYPE html>
-<html>
 
-<head>
-	<meta charset="utf-8" />
-	<title>Web Rama Estudiantil IEEE UNPSJB</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="css/master.css" />
-	<link rel="stylesheet" href="/css/icono-arg.css">
-</head>
+<html lang="es">
 
-<div class="logo">
-	<a href="index.html"><img class="imglogo" src="Files/logos/Logo_Rama.png"></a>
-	<a href="https://www.ieee.org/" target="blank"><img class="imglogo" src="Files/logos/ieeeLogo.png"></a>
-</div>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Web Rama Estudiantil IEEE UNPSJB</title>
+		<meta name="description" content="Web Rama Estudiantil IEEE UNPSJB">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#88b5d8" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="icon" href="https://ieeeunpsjb.files.wordpress.com/2021/03/cropped-icono.png?w=32" sizes="32x32" />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/b459fde73e.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="styles/reset.css">
+		<link rel="stylesheet" href="styles/styles.css">
+	</head>
 
-<div class="tab_container">
-	<input id="tab1" type="radio" name="tabs" checked>
-	<label for="tab1"><i class="fa fa-feed"></i><span>Noticias</span></label>
 
-	<input id="tab2" type="radio" name="tabs">
-	<label for="tab2"><i class="fa fa-users"></i><span>Nosotros</span></label>
+	<body>
 
-	<input id="tab4" type="radio" name="tabs">
-	<label for="tab4"><i class="fa fa-microchip"></i><span>IEEE</span></label>
+		<header id="header">
 
-	<input id="tab3" type="radio" name="tabs">
-	<label for="tab3"><i class="fa fa-calendar"></i><span>Calendario</span></label>
-
-	<input id="tab5" type="radio" name="tabs">
-	<label for="tab5"><i class="fa fa-envelope-o"></i><span>Contacto</span></label>
-
-	<section id="content1" class="tab-content">
-		<h3>Bienvenidos!</h3>
-		<!-- Slideshow container -->
-
-		<div class="slideshow-container">
-			<!-- Full-width images with number and caption text -->
-
-			<div class="mySlides fade">
-				<div class="numbertext"> 1 / 5</div>
-				<a href="#jornada2020"> <img src="Files/news/jornada2020.png" style="width:56.2%;display: block;
-					margin-left: auto;margin-right: auto;"></a>
-				<div class="overlay">Jornadas de Electrónica y Ciencias de la Computación 2020</div>
+			<div class="img-logo-container">
+				<a href="index.html"><img class="img-logo" src="assets/logos/Logo_Rama.png" alt="Logo Rama IEEE UNPSJB"></a>
+				<div class="vl"> </div>
+				<a href="https://www.ieee.org/" target="_blank"><img class="img-logo" src="assets/logos/ieeeLogo.png" alt="Logo IEEE"></a>
 			</div>
 
-			<div class="mySlides fade">
-				<div class="numbertext"> 2 / 5</div>
-				<a href="#pepe"> <img src="Files/news/Charla_jose.png" style="width:100%"></a>
-				<div class="overlay">Experiencias de un Ingeniero Electrónico comodorense</div>
-			</div>
+			<menu class="navbar">
 
-			<div class="mySlides fade">
-				<div class="numbertext">3 / 5</div>
-				<a href="#5jornada"><img src="Files/news/1.jpg" style="width:100%"></a>
-				<div class="overlay">5ta Jornada de Electrónica</div>
-			</div>
+				<li class="navbar-item">
+					<a class="navbar-link" href="#nosotros">
+						<i class="fas fa-users fa-custom"></i>Nosotros
+					</a>
+				</li>
 
-			<div class="mySlides fade">
-				<div class="numbertext">4 / 5</div>
-				<a href="#RNR"> <img src="Files/news/2.jpg" style="width:100%"></a>
-				<div class="overlay">RNR 2019</div>
-			</div>
+				<li class="navbar-item">
+					<a class="navbar-link" href="#ieee">
+						<i class="fas icon-ieee-logo fa-custom"></i>IEEE
+					</a>
+				</li>
 
-			<div class="mySlides fade">
-				<div class="numbertext"> 5 / 5</div>
-				<a href="#Recon"> <img src="Files/news/4.jpg" style="width:100%"></a>
-				<div class="overlay">Taller de reconocimiento de componentes</div>
-			</div>
+				<li class="navbar-item">
+					<a class="navbar-link" href="#calendario">
+						<i class="fas fa-calendar fa-custom"></i>Calendario
+					</a>
+				</li>
 
+				<li class="navbar-item">
+					<a class="navbar-link" href="https://ieeeunpsjb.wordpress.com/" target="_blank">
+						<i class="fas fa-blog fa-custom"></i>Blog
+					</a>
+				</li>
 
-		</div>
-		<!-- Next and previous buttons-->
-		<!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-	<a class="next" onclick="plusSlides(1)">&#10095;</a> -->
-		<div>
-			<br>
-			<!-- The dots/circles -->
-			<!-- <div style="text-align:center">
-	<span class="dot" onclick="currentSlide(1)"></span>
-	<span class="dot" onclick="currentSlide(2)"></span>
-	<span class="dot" onclick="currentSlide(3)"></span>
-  </div>  -->
+				<li class="navbar-item">
+					<a class="navbar-link" href="index_en.html">
+						<i class="fas fa-language fa-custom"></i>Language
+					</a>
+				</li>
+			</menu>
 
-			<!-- Script para que las imagenes se pasen solas -->
-			<script>
-				var slideIndex = 0;
-				showSlides(slideIndex);
+		</header>
 
-				function plusSlides(n) {
-					showSlides(slideIndex += n);
-				}
+		<main>
 
-				function currentSlide(n) {
-					showSlides(slideIndex = n);
-				}
+			<section id="noticias" class="section">
 
-				function showSlides(n) {
-					var i;
-					var slides = document.getElementsByClassName("mySlides");
-					var dots = document.getElementsByClassName("dot");
-					if (n > slides.length) {
-						slideIndex = 1
-					}
-					if (n < 1) {
-						slideIndex = slides.length
-					}
-					for (i = 0; i < slides.length; i++) {
-						slides[i].style.display = "none";
-					}
-					for (i = 0; i < dots.length; i++) {
-						dots[i].className = dots[i].className.replace(" active", "");
-					}
-					slides[slideIndex - 1].style.display = "block";
-					dots[slideIndex - 1].className += " active";
-				}
+				<h1 class="section-header">
+					Bienvenidos!
+				</h1>
 
-				var slideIndex = 0;
+				<h4 class="section-description">
+					Esta es nuestra web oficial de la Rama Estudiantil IEEE de la Universidad Nacional de la Patagonia San Juan Bosco.
+				</h4>
 
-				function showSlides() {
-					var i;
-					var slides = document.getElementsByClassName("mySlides");
-					for (i = 0; i < slides.length; i++) {
-						slides[i].style.display = "none";
-					}
-					slideIndex++;
-					if (slideIndex > slides.length) {
-						slideIndex = 1
-					}
-					slides[slideIndex - 1].style.display = "block";
-					setTimeout(showSlides, 3000); // Cambia cada 3 segundos
-				}
-			</script>
+				<h4 class="section-description">
+					Acá vas a poder encontrar toda la información sobre lo que hacemos y cómo podes formar parte.
+				</h4>
 
-			<div>
-				<div>
-					<h3 id="jornada2020">Jornadas de Electrónica y Ciencias de la Computación 2020<h3>
+				<div class="slideshow-container">
+
+					<div class="mySlides">
+						<a href="http://www.unp.edu.ar/" target="_blank"> <img class="slide-img"
+								src="assets/news/edificio2.jpg" alt="Rama Estudiantil IEEE UNPSJB"></a>
+						<div class="slides-description">
+							<h3>1/5</h3>
+							<h3>Rama Estudiantil IEEE UNPSJB</h3>
+						</div>
+					</div>
+
+					<div class="mySlides">
+						<a href="#"> <img class="slide-img" src="assets/news/6.jpg" alt="Primera reunión 2021"></a>
+						<div class="slides-description">
+							<h3>2/5</h3>
+							<h3>Primera Reunión 2021</h3>
+						</div>
+					</div>
+
+					<div class="mySlides">
+						<a href="https://ieeeunpsjb.github.io/Jornadas2020/" target="_blank"><img class="slide-img"
+								src="assets/news/1.jpg" alt="Jornadas de Electrónica"></a>
+						<div class="slides-description">
+							<h3>3/5</h3>
+							<h3>Evento: Jornadas de Electrónica</h3>
+						</div>
+					</div>
+
+					<div class="mySlides">
+						<a href="https://www.youtube.com/watch?v=DHVbu2528MM" target="_blank"> <img class="slide-img"
+								src="assets/news/5.jpg" alt="Evento: La Uni te Recibe"></a>
+						<div class="slides-description">
+							<h3>4/5</h3>
+							<h3>Evento: La Uni te recibe</h3>
+						</div>
+					</div>
+
+					<div class="mySlides">
+						<a href="#Recon"> <img class="slide-img" src="assets/news/4.jpg" alt="evento: Taller de reconocimiento de componentes"></a>
+						<div class="slides-description">
+							<h3>5/5</h3>
+							<h3>Evento: Taller de reconocimiento de componentes</h3>
+						</div>
+					</div>
+
 				</div>
-				<div>
-					<p align="justify"> Del 24 al 28 de Agosto se realizó  las “Jornadas de
-						Electrónica y Ciencias de la Computación” (<a href="https://ieeeunpsjb.github.io/Jornadas2020/"
-							target="blank" style="  color: blue;
-						text-decoration: underline;">Web Jornadas 2020</a>). Fue una semana con charlas virtuales de diversas temáticas
-						donde participarán docentes y estudiantes de posgrado de los Departamentos de Electrónica e
-						Informática de la UNPSJB, como también de otras Universidades y a su vez profesionales de
-						distintos ámbitos.
-						
-						
 
+			</section>
 
+			<section id="eventos" class="section">
 
+				<h1 class="section-header">
+					Nuestras Actividades
+				</h1>
+				<h4 class="section-description">
+					Estas son las actividades que consideramos un sello personal
+				</h4>
+
+				<article class="article">
+
+					<h3 class="articletitle">
+						<i class="fas fa-square"></i>Jornadas de Electrónica y Ciencias de la Computación 2020
+					</h3>
+
+					<div class="articleimgcontainer">
+
+						<div class="articleimg">
+							<img src="assets/news/jornada2020.png" alt="Promocional Jornada 2020">
+						</div>
+
+						<div class="articletext">
+							<p> Del 24 al 28 de Agosto se realizó las “Jornadas de
+								Electrónica y Ciencias de la Computación”.
+								Fue una semana con charlas virtuales de diversas temáticas donde participaron
+								docentes y
+								estudiantes de posgrado
+								de los Departamentos de Electrónica e Informática de la UNPSJB, como también de otras
+								Universidades y a su vez profesionales de
+								distintos ámbitos.</p>
+							<p>Las Jornadas son un espacio destinado a la comunidad en general, pero en particular para que
+								alumnos de carreras universitarias puedan encontrar si su futuro está en continuar como
+								investigadores o abocarse a la industria</p>	
+							
+							<a class="button" href="https://ieeeunpsjb.wordpress.com/">Continuar Leyendo</a>
+						</div>
+
+					</div>
+					
+				</article>
+
+				<article class="article">
+
+					<h3 class="articletitle">
+						<i class="fas fa-square"></i>Curso Python aplicado a la Ingenieria
+					</h3>
+
+					<div class="articleimgcontainer">
+
+						<div class="articletext">
+							<p> Este curso surgió debido a la necesidad de conocer este lenguaje de programación tan popular
+								y que en la actualidad tiene muchas aplicaciones y cada vez está siendo más utilizado por
+								investigadores en los campos de procesamiento natural del lenguaje, procesamiento de
+								señales, ciencia de datos y en un futuro en sistemas embebidos de la mano de MicroPython y
+								CircuitPython.</p>
+
+							<p>El objetivo del curso es dar una introducción al lenguaje, librerias y paquetes así como
+								también el uso de herramientas de desarrollo y
+								despliegue continuo en aplicaciones de sistemas embebidos o Internet de las Cosas para ser
+								más específicos. </p>
+
+							<a class="button" href="https://ieeeunpsjb.wordpress.com/">Continuar Leyendo</a>
+						</div>
+
+						<div class="articleimg">
+							<img src="assets/news/py4eng.png" alt="Promocional Curso Python aplicado a la Ingeniería">
+						</div>
+
+					</div>
+
+				</article>
+
+				<article class="article" id="Recon">
+					<h3 class="articletitle">
+						<i class="fas fa-square"></i>Taller de reconocimiento de componentes
+					</h3>
+
+					<p>A principios de Junio 2019 se realizó un taller de reconocimiento de componentes
+						electrónicos. Asistieron alumnos de nivel secundario e ingresantes de la carrera Ingeniería
+						Electrónica. En este taller se explicó la diferencia de las tecnologías de encapsulación de
+						componentes y se reconocieron los códigos que identifican su valor comercial y tolerancia.</p>
+					
+					<a class="button" href="https://ieeeunpsjb.wordpress.com/">Continuar Leyendo</a>
+
+				</article>
+
+			</section>
+
+			<div class ="section incentive">
+				<a href="https://www.ieee.org/membership/join/index.html">
+					<img src="assets/incentives/future_banner.jpg" class="banner" alt="Banner IEEE">
+				</a>
+			</div>
+
+			<section id="nosotros" class="section">
+
+				<h1 class="section-header">Nosotros</h1>
+
+				<article class="article">
+
+					<img src="assets/news/Reactivacion.jpg" class="fotoreactivacion" alt="Grupo Reactivación">
+
+					<h3 class="articletitle">
+						<i class="fas fa-square"></i>¿Quiénes somos?
+					</h3>
+
+					<p>La Rama Estudiantil de la Universidad Nacional de la Patagonia nació el 11 de
+						Noviembre de 1995, donde alumnos de la sede de Comodoro Rivadavia organizaron las primeras
+						Jornadas de Electrónica. Somos un grupo de alumnos de las carreras de Licenciatura en Informática e
+						Ingeniería
+						Electrónica que realizamos actividades, multidisciplinarias, que nos proporcionan nuevos
+						conocimientos y habilidades.
 					</p>
-				</div>
 
-				<div>
-					<h3 id="pepe">Experiencias de un Ingeniero Electrónico comodorense<h3>
-				</div>
-				<div>
-					<p align="justify">La misma será dada por José Joao quién se graduó de Ingeniero Electrónico y
-						Analista Programador Universitario, también fue docente de nuestra Universidad y fundador de la
-						Rama Estudiantil
-						del IEEE. Actualmente José reside en Austin, Texas y forma parte del grupo de investigación de
-						Arquitectura de Computadoras.
-						Durante esta charla, José compartirá algunas de sus experiencias en nuestra Universidad, su paso
-						por la Universidad de Austin y actualmente su trabajo.</p>
-				</div>
+					<h3 class="articletitle">
+						<i class="fas fa-square"></i>¿Qué representa nuestro logo?
+					</h3>
 
+					<p> Como base utiliza el logo original de IEEE. El barrilete conmemora el famoso
+						experimento de electricidad realizado por Benjamín Franklin y en su interior, donde originalmente
+						se encontraría la regla de la mano derecha hay un Albatros, símbolo de la UNPSJB y
+						fauna carácterística de las costas Patagónicas.
+					</p>
 
-				<div>
-					<h3>Ingeniería Inversa de Señales Radioeléctricas<h3>
-				</div>
-				<div>
-					<p align="justify">Muchos de los experimentos con SDRs baratos se reducen a tener que usar
-						pasivamente
-						un software de terceros; por eso <a href="http://actinid.org/" target="blank" style="  color: gray;
-			text-decoration: none;"> Gonzalo Carracedo Carballal </a> presentará las motivaciones que lo llevaron a desarrollar
-						SigDigger,
-						su mantenimiento en un repositorio oficial de Arch Linux y el uso práctico en CTF y
-						radioastronomía.</p>
-				</div>
+				</article>
 
-				<h3 id="5jornada">5tas Jornadas de Electrónica- FI UNPSJB<h3>
-			</div>
-			<div>
-				<p align="justify">Las Jornadas de Electrónica consisten en la difusión de las actividades de grupos
-					de investigación del Departamento de Electrónica y de estudiantes de posgrado, así como también
-					las experiencias y desarrollos de profesionales de entidades relacionadas con las áreas de
-					interés de la carrera.
-					Durante los días 28 y 29 de Noviembre contamos con presencia de disertantes alumnos, profesores
-					y de las empresas YPF LUZ, Hychico CAPSA, NRG Patagonia, AESA YPF. (Para ver más fotos y las
-					presentaciones) <a href="jornadas/index.html" target="blank" style="  color: blue;
-			text-decoration: underline;">Página Web de la 5ta Jornada</a></p>
-			</div>
-
-			<div>
-				<h3 id="RNR">Reunión Nacional de Ramas</h3>
-				<p align="justify">Los días 5, 6 y 7 de Septiembre asistimos a la Reunión Nacional de Ramas
-					realizada en Bahía Blanca, donde compartimos con las distintas Ramas del país. Durante las
-					jornadas, varios investigadores de la Universidad Nacional del Sur expusieron sus
-					investigaciones. Además, participamos de actividades de compañerísmo, capacitaciones y visitas
-					técnicas.</p>
-			</div>
-			<div>
-				<h3 id="EstudioPosgrado">Estudios de Posgrado en el Exterior.</h3>
-				<p align="justify">El día viernes 23 de Agosto se realizó la charla: "Estudios de posgrado y
-					experiencias de investigación: En Alcalá de Henares, España" dónde el Mg. Ing. Santiago Murano
-					contó su experiencia del doctorado que está realizando en España "Sistemas de posicionamiento
-					ultrasónicos".</p>
-			</div>
-
-
-			<div>
-				<h3>Participación SASE</h3>
-			</div>
-			<div>
-				<p align="justify">
-					Los días 17, 18 y 19 de Julio asistimos al Simposio Argentino de Sistemas Embebidos (SASE) en la
-					Universidad Nacional de Rosario, donde se
-					participó en tutoriales y workshops. En el congreso se trataron temas relacionados a Internet of
-					Things (IoT), programación de sistemas embebidos, robótica, Linux.</p>
-			</div>
-
-			<div>
-				<h3>Curvas de nivel</h3>
-			</div>
-			<div>
-				<p align="justify">Alumnos de Geología de nuestra Universidad nos convocaron para ayudarlos a
-					configurar el proyecto AR SandBox, se trata de una implementación de una maqueta de realidad
-					virtual que se utiliza para explicar de manera más real e intuitiva curvas de nivel y el estudio
-					que se realiza en Topografía.</p>
-			</div>
-
-			<div>
-				<h3 id="Recon">Taller de reconocimiento de componentes</h3>
-			</div>
-			<div>
-				<p align="justify">A principios de Junio 2019 se realizó un taller de reconocimiento de componentes
-					electrónicos. Asistieron alumnos de nivel secundario e ingresantes de la carrera Ingeniería
-					Electrónica. En este taller se explicó la diferencia de las tecnologías de encapsulación de
-					componentes y se reconocieron los códigos que identifican su valor comercial y tolerancia.</p>
-			</div>
-
-			<div>
-				<h3 id="UniTeRecibe">La Uni te recibe</h3>
-			</div>
-			<div>
-				<p align="justify"> El 22 de Mayo de 2019 se realizó "La Uni te Recibe", un evento en el cual
-					asisten futuros aspirantes a carreras de grado. La Rama Estudiantil participó en el stand de
-					Ingeniería Electrónica donde se mostraron distintos proyectos y se comentó a los asistentes las
-					actividades que se realizan en la carrera.</p>
-			</div>
-
-			<div>
-				<h3>Rifa huevo de Pascua</h3>
-			</div>
-			<div>
-				<p align="justify"> Semanas previas a la fiesta de Pascua se realizó una rifa para obtener fondos y
-					financiar los elementos necesarios en actividades de la Rama Estudiantil.</p>
-			</div>
-
-			<div>
-				<h3>Reactivación en Comodoro Rivadavia</h3>
-			</div>
-			<div>
-				<p align="justify">A principios de Marzo de 2019 se comenzó a gestar la reactivación de la Rama
-					Estudiantil en la sede de Comodoro Rivadavia, se realizó una reunion entre los interesados por
-					formar parte y se creó una comision directiva local.</p>
-			</div>
-
-
-	</section>
-
-	<section id="content2" class="tab-content">
-
-		<table>
-			<td>
-				<div style="width: 95%;"><img src="Files/news/Reactivación.jpg" class="responsive" id="fototab"></div>
-			</td>
-			<td>
-				<h3>¿Quiénes somos?</h3>
-				<p align="justify">La Rama Estudiantil de la Universidad Nacional de la Patagonia nació el 11 de
-					Noviembre de 1995, donde alumnos de la sede de Comodoro Rivadavia organizaron las primeras Jornadas
-					de Electrónica.</p>
-
-				<p align="justify">Somos un grupo de alumnos de las carreras de Licenciatura en Informática e Ingeniería
-					Electrónica que realizamos actividades, multidisciplinarias, que nos proporcionan nuevos
-					conocimientos y habilidades.</p>
-
-
-				<h3 align="justify">¿Qué representa nuestro logo?</h3>
-				<p align="justify"> Como base utiliza el logo original de IEEE, el barrilete conmemora el famoso
-					experimento de electricidad realizado por Benjamín Franklin, en su interior, donde originalmente se
-					encontraría la regla de la mano derecha, se encuentra un albatros, símbolo de la UNPSJB y fauna
-					carácterística de las costas Patagónicas.</p>
-			</td>
-			<!--</div>-->
-		</table>
-		<h3>Officers</h3>
-		<div class="tabla_div">
-			<div class="fila_tabla" style="width: 100%;">
-				<div class="columna_tabla"><img src="Files/officers/chair.jpg" class="fotoO">
-					<p>Chair: Daniela Caamiña <br> <i class="fa fa-envelope" style="color: #000000;"></i>
-						dcaamina@ieee.org</p>
-				</div>
-				<div class="columna_tabla"><img src="Files/officers/vicechair.jpeg" class="fotoO">
-					<p>Vice Chair: Federico Garcia<br> <i class="fa fa-envelope" style="color: #000000;"></i>
-						federicogarcia@ieee.org	</p>
-				</div>
-				<div class="columna_tabla"><img src="Files/officers/secretary.jpg" class="fotoO">
-					<p>Secretary: Cristian Laime <br> <i class="fa fa-envelope" style="color: #000000;"></i>
-						cristianlaime@ieee.org</p>
-				</div>
-			</div>
-
-			<div class="fila_tabla">
-				<div class="columna_tabla"><img src="Files/officers/tesorero.jpg" class="fotoO">
-					<p>Treasurer: Santiago Nuñez<br> <i class="fa fa-envelope" style="color: #000000;"></i>
-						sanntinunez@ieee.org</p>
-				</div>
-				<div class="columna_tabla"><img src="Files/officers/webmaster1.jpeg" class="fotoO">
-					<p>Webmaster: Ana Victoria Rodriguez<br> <i class="fa fa-envelope" style="color: #000000;"></i>
-						avr@ieee.org</p>
-				</div>
-				<div class="columna_tabla"><img src="Files/officers/webmaster2.png" class="fotoO">
-					<p>Webmaster: Daniel Ulloa <br> <i class="fa fa-envelope" style="color: #000000;"></i>
-						ulloa@ieee.org</p>
-				</div> 
-			</div>
-		</div>
-	</section>
-	<section id="content3" class="tab-content">
-		<div class="iframe-container"><iframe
-				src="https://calendar.google.com/calendar/b/3/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FArgentina%2FCatamarca&amp;src=Z2Q4MW9vbWFzb2ZqZHUwMjRyMGU3bHIzMWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%2370237F&amp;showTabs=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;showDate=1"
-				style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
-		<!-- <h3>5tas Jornadas de Electrónica- FI UNPSJB</h3>
-<p align="justify">Las Jornadas de Electrónica consisten en la difusión de las actividades de grupos de investigación del Departamento de Electrónica y de estudiantes de posgrado, así como también las experiencias y desarrollos de profesionales de entidades relacionadas con las áreas de interés de la carrera.
-Durante los días 28 y 29 de Noviembre contamos con presencia de disertantes alumnos, profesores y de las empresas YPF LUZ, Hychico CAPSA, NRG Patagonia, AESA YPF. <span><a href="/jornadas/index.html" style="color: blue;">Página Web de la 5ta Jornada</a></span></p>
-<h3>Estudios de Posgrado en el Exterior.</h3>
-<p align="justify">El día Viernes 23/08/2019 se realizó la charla: "Estudios de posgrado y experiencias de investigación: En Alcalá de Henares, España". Dónde el Mg. Ing. Santiago Murano conto su experiencia del doctorado que está realizando en España. **Foto</p>
-<h3>Participación SASE</h3>
-<p align="justify">Los días 17,18 y 19 de Julio, estuvimos participamos del SASE (Simposio Argentino de Sistemas Embebidos) en la Universidad Nacional de Rosario. Dónde se trataron diversidad de temas como IoT, programación y fabricación de sistemas embebidos, Robótica, Linux embebido, etc. Siendo esta una experiencia enriquecedora y esperamos que el año que viene podamos ser muchos más!</p>
-<h3>Curvas de nivel</h3>
-<p align="justify">Alumnos de Geología de nuestra Universidad nos convocaron para ayudarlos a configurar el proyecto “Curvas de nivel”, se trata de una implementación de una maqueta de realidad virtual (AR SandBox) la cual se utiliza para explicar de manera más real e intuitiva lo que son las curvas de nivel y el estudio que se realiza en Topografía.  *** Fotos</p>
-<h3>Taller de reconocimiento de componentes</h3>
-<p align="justify">A principios de Junio 2019 se realizó un taller de reconocimiento de componentes. En él asistieron alumnos del nivel secundario y de los primeros años de Ingeniería Electrónica. En este taller de duración de dos horas, se repartieron folletos con las clasificaciones de distintos componentes que luego deberían reconocer en una paleta preparada especialmente para la ocasión. Se enseñó a leer los códigos y medir resistencias y capacitores. ***Fotos</p>
-<h3>La Uni te recibe</h3>
-<p align="justify">El 22 de Mayo de 2019, la Rama Estudiantil participó en el stand de Ingeniería Electrónica. La Uni Te Recibe es una actividad que organiza la Universidad donde asisten alumnos del último año de secundaria de la Región. Nuestra colaboración fue explicarles a los alumnos de que se trata Electrónica y entregamos señaladores alusivos, incentivando así, que elijan la carrera. ***fotos</p>
-<h3>Rifa huevo de Pascua</h3>
-<p align="justify">Para recaudar fondos realizamos el sorteo de una canasta de Pascua, que consistió en huevos de Pascua y una Rosca. Lo recaudado luego se utlizó para la compra de diversos elementos utilizados para actividades posteriores.</p>
-<h3>Reactivación en Comodoro Rivadavia</h3>
-<p align="justify"></p>En sus inicios la Rama Estudiantil de UNPSJB tenía sede en Comodoro Rivadavia y las últimas reuniones en esta ciudad se realizaron en 2010. Por el año 2017 la rama fue reactivada en la ciudad de Madryn donde estaba integrada por alumnos que cursan carreras de informática. A partir de Marzo de 2019, la ciudad de Comodoro reactivó sus reuniones trabajando en conjunto con la otra sede universitaria.   ***foto</p> -->
-
-	</section>
-
-
-
-
-	<section id="content4" class="tab-content">
-		<h3>¿Qué es IEEE?</h3>
-		<p align="justify">El Instituto de Ingeniería Eléctrica y Electrónica (conocido por sus siglas IEEE, en inglés
-			Institute of Electrical and Electronics Engineers) es una asociación mundial de ingenieros dedicada a la
-			normalización y el desarrollo en áreas técnicas. Con miles de miembros y voluntarios en 160 países, es la
-			mayor
-			asociación internacional sin ánimo de lucro formada por profesionales de las nuevas tecnologías, como lo son
-			electricidad, electrónica, sistemas y computación, matemática aplicada, biomedicina, telecomunicación, entre
-			otras.
-		</p>
-		<h3>¿Por qué ser miembro de IEEE?</h3>
-
-		<p>Ser miembro o voluntario tiene múltiples beneficios:</p>
-		<p>
-		<ul>
-			<li>Creá tu propia red working.</li>
-			<li>Contar con apoyo logístico, económico y técnico para realizar actividades dentro de la Rama Estudiantil.
-			</li>
-			<li>Participar de reuniones regionales donde es posible encontrar nuevas herramientas.</li>
-			<li>Descuentos en aplicaciones, libros, charlas, cursos, conferencias, artículos académicos.</li>
-			<li>Facilidad para acceder a becas de grado y posgrado.</li>
-			<li>Participar en concursos internacionales.</li>
-			<li>Asignar un correo electrónico institucional. </li>
-		</ul>
-		</p>
-		<p align="center"><a href="https://www.ieee.org/" target="blank">Más información!</a> </p>
-	</section>
-
-	<section id="content5" class="tab-content">
-		<h3>Contactanos!</h3>
-		<h3>ieee.unpsjb@gmail.com</h3>
-		<h3>Seguinos en las redes sociales :)</h3>
-		<h3></h3>
-	</section>
-
-	<footer>
-		<div>
-			<div class="flex-container">
-				<div class="flex-item">
-					<a href="https://www.facebook.com/R9SACUNPSJBIEEE/" target="external"> <i
-							class="fa fa-facebook-f fa-2x" style="color:#3b5998;"></i><span></span></a></label>
-				</div>
-				<div class="flex-item">
-					<a href="https://www.instagram.com/unpsjbieee/" target="external"><i class="fa fa-instagram fa-2x"
-							style="color: #e1306c;"></i><span></span></a></label>
-				</div>
-				<div class="flex-item">
-					<a href="https://github.com/ieeeunpsjb/" target="external"><i class="fa fa-github fa-2x"
-							style="color: #6e5494;"></i><span></span></a></label>
+				<div class ="incentive">
+					<a href="https://ieee-collabratec.ieee.org/">
+						<img src="assets/incentives/collabratec.png" class="banner" alt="IEEE">
+					</a>
 
 				</div>
-			</div>
-		</div>
-	</footer>
-	<p class="no_wrap">
-		Rama Estudiantil IEEE UNPSJB - Chubut - Argentina <i class="icono-arg-mapa-argentina"></i> - 2020
-	</p>
+		
+				<article class="article officers-article">
 
-	<!--<p class="link">
-  Just in case you want to go through the tutorial follow this link: <a href="http://www.sevensignature.com/blog/code/responsive-pure-css-tabs/">Responsive Pure CSS Tabs</a>
-</p>-->
+					<div class="officersgroup">
+						<h2 class="section-header">Officers</h2>
+						<h4 class="section-description">La comisión directiva del período 2021-2022</h4>
+					</div>
 
-	</section>
-	<div class="pie">
-		<a href="http://www.unp.edu.ar/" target="external"><img class="pielogo" src="Files/logos/logo2.png"></a></div>
+					<div class="officerscontainer">
+
+						<div class="officer">
+							<img src="assets/officers/chair.jpg" alt="Chair">
+							<div class="officer-data">
+								<h3>Chair:</h3>
+								<h3>Daniela Caamiña</h3>
+								<h4><a href="mailto:dcaamina@ieee.org"><i class="fa fa-envelope"></i>dcaamina@ieee.org</a>
+								</h4>
+							</div>
+						</div>
+
+						<div class="officer">
+							<img src="assets/officers/vicechair.jpg" alt="Vice Chair">
+							<div class="officer-data">
+								<h3>Vice Chair:</h3>
+								<h3>Federico Garcia</h3>
+								<h4><a href="mailto:federicogarcia@ieee.org"><i
+											class="fa fa-envelope"></i>federicogarcia@ieee.org</a></h4>
+							</div>
+						</div>
+
+						<div class="officer">
+							<img src="assets/officers/secretary.jpg" alt="Secretary">
+							<div class="officer-data">
+								<h3>Secretary:</h3>
+								<h3>Cristian Laime</h3>
+								<h4><a href="mailto:cristianlaime@ieee.org"><i
+											class="fa fa-envelope"></i>cristianlaime@ieee.org</a></h4>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="officerscontainer">
+
+						<div class="officer">
+							<img src="assets/officers/tesorero.jpg" alt="Treasurer">
+							<div class="officer-data">
+								<h3>Treasurer:</h3>
+								<h3>Santiago Nuñez</h3>
+								<h4><a href="mailto:sanntinunez@ieee.org"><i
+											class="fa fa-envelope"></i>sanntinunez@ieee.org</a>
+								</h4>
+							</div>
+						</div>
+
+						<div class="officer">
+							<img src="assets/officers/webmaster1.jpg" alt="Webmaster">
+							<div class="officer-data">
+								<h3>Webmaster:</h3>
+								<h3>Ana Victoria Rodriguez</h3>
+								<h4><a href="mailto:avr@ieee.org"><i class="fa fa-envelope"></i>avr@ieee.org</a></h4>
+							</div>
+						</div>
+
+						<div class="officer">
+							<img src="assets/officers/webmaster2.jpg" alt="Webmaster">
+							<div class="officer-data">
+								<h3>Webmaster:</h3>
+								<h3>Daniel Ulloa</h3>
+								<h4><a href="mailto:ulloa@ieee.org"><i class="fa fa-envelope"></i>ulloa@ieee.org</a></h4>
+							</div>
+						</div>
+
+					</div>
+
+				</article>
+
+			</section>
+
+
+			<section id="ieee" class="section">
+
+				<h1 class="section-header">IEEE</h1>
+
+				<article class="article">
+
+					<h3 class="articletitle">
+						<i class="fas fa-square"></i>¿Qué es IEEE?
+					</h3>
+
+					<p>El Instituto de Ingeniería Eléctrica y Electrónica (conocido por sus siglas IEEE, en
+						inglés
+						Institute of Electrical and Electronics Engineers) es una asociación mundial de ingenieros dedicada
+						a la
+						normalización y el desarrollo en áreas técnicas.</p>
+
+					<p>Con miles de miembros y voluntarios en 160 países,
+						es
+						la mayor asociación internacional sin ánimo de lucro formada por profesionales de las nuevas
+						tecnologías,
+						como lo son
+						electricidad, electrónica, sistemas y computación, matemática aplicada, biomedicina,
+						telecomunicación, entre
+						otras.
+					</p>
+
+				</article>
+
+				<article class="article">
+
+					<h3 class="articletitle">
+						<i class="fas fa-square"></i>Distribución Geográfica
+					</h3>
+
+					<div class="articleimgcontainer">
+
+						<div class="articletext">
+							<p>Los miembros del IEEE están organizados geográficamente dentro de 10 Regiones (Regions):
+							</p>
+							<ul>
+								<li>Regiones 1 a 6: Estados Unidos</li>
+								<li>Región 7: Canadá</li>
+								<li>Región 8: Europa, África y Medio Oriente </li>
+								<li>Región 9: Latinoamérica </li>
+								<li>Región 10: Asia y Oceanía</li>
+							</ul>
+
+							<p>Cada Región se subdivide en Secciones (Sections).</p>
+							<p>Cada Sección tiene una Junta Directiva elegida anualmente entre todos sus miembros
+								profesionales.
+								Todos los Directores de Sección de cada Región conforman la Junta Directiva Regional.
+							</p>
+
+							<p>Nosotros pertenecemos a la <a href="https://r9.ieee.org/">Región 9</a> , <a
+									href="http://www.ieee.org.ar/index.asp">Sección Argentina</a>.</p>
+
+							<p>De cada Sección dependen los Capítulos (Chapters) y las Ramas Estudiantiles (Student
+								Branches).
+								Existen más de 2 000 Ramas Estudiantiles.</p>
+						</div>
+
+						<div class="articleimg">
+							<img src="assets/ieee/regions.png" alt="Regiones IEEE">
+						</div>
+
+					</div>
+
+				</article>
+
+				<div class ="incentive">
+					<a href="https://www.ieee.org/about/ieee-strategic-plan.html">
+						<img src="assets/incentives/sp_banner.png" class="banner" alt="IEEE">
+					</a>
+				</div>
+
+				<article class="article article-ieeeethics">
+
+					<h3 class="articletitle">
+						<i class="fas fa-square"></i>Código de Ética IEEE
+					</h3>
+
+					<p>Nosotros, los miembros del IEEE, en reconocimiento de la importancia de nuestras tecnologías que
+						afectan a la calidad de vida en todo el mundo, y aceptando una obligación personal con nuestra
+						profesión, sus miembros y las comunidades a las que servimos, nos comprometemos por la presente a la
+						más alta conducta ética y profesional y estamos de acuerdo:</p>
+
+					<ol type="I">
+
+						<li>Mantener los más altos niveles de integridad, comportamiento responsable y conducta ética en
+							las actividades profesionales.
+
+							<ol start="1">
+								<li>Considerar primordial la seguridad, la salud y el bienestar del público, esforzarse por
+									cumplir con las prácticas de diseño ético y desarrollo sostenible, proteger la privacidad de los
+									demás y revelar rápidamente los factores que puedan poner en peligro al público o al medio ambiente;</li>
+								<li> mejorar la comprensión por parte de los individuos y la sociedad de las capacidades e
+									implicaciones sociales de las tecnologías convencionales y emergentes, incluidos los
+									sistemas inteligentes</li>
+								<li>evitar, siempre que sea posible, los conflictos de intereses reales o percibidos, y
+									revelarlos a las partes afectadas cuando existan</li>
+								<li>evitar conductas ilícitas en las actividades profesionales y rechazar el soborno en todas
+									sus formas</li>
+								<li>buscar, aceptar y ofrecer una crítica honesta del trabajo técnico, reconocer y corregir
+									los errores, ser honesto y realista a la hora de exponer afirmaciones o estimaciones basadas en
+									los datos disponibles, y dar el debido crédito a las contribuciones de otros;</li>
+								<li>mantener y mejorar nuestra competencia técnica y emprender tareas tecnológicas para otros
+									sólo si estamos cualificados por nuestra formación o experiencia, o después de haber revelado
+									plenamente las limitaciones pertinentes;</li>
+							</ol>
+
+						</li>
+
+						<li>Tratar a todas las personas de forma justa y respetuosa, no incurrir en acoso o
+							discriminación y evitar perjudicar a los demás.
+						
+							<ol start="7">
+								<li>Tratar a todas las personas de forma justa y respetuosa, y no incurrir en discriminación
+									basada en características como la raza, la religión, el género, la discapacidad, la edad, el origen
+									nacional, la orientación sexual, la identidad de género o la expresión de género;</li>
+								<li>no incurrir en acoso de ningún tipo, incluido el acoso sexual o el comportamiento
+									intimidatorio</li>
+								<li>evitar dañar a otros, su propiedad, reputación o empleo mediante acciones falsas o
+									maliciosas, rumores o cualquier otro abuso verbal o físico;</li>
+							</ol>
+
+						</li>
+
+						<li>Procurar que este código sea respetado por los colegas y compañeros de trabajo.
+							<ol start="10">
+								<li>Apoyar a los colegas y compañeros de trabajo en el cumplimiento de este código de ética,
+									esforzarse por garantizar el cumplimiento del código y no tomar represalias contra las
+									personas quedenuncien una infracción.</li>
+							</ol>
+						</li>
+
+					</ol>
+				
+					<p>Adoptado por la Junta Directiva del IEEE e incorporando revisiones hasta junio de 2020.</p>
+				</article>
+
+
+				<article class="article">
+					<h3 class="articletitle">
+						<i class="fas fa-square"></i>¿Por qué ser miembro de IEEE?
+					</h3>
+
+					<div class="articleimgcontainer">
+
+						<div class="articletext">
+							<p>Ser miembro o voluntario tiene múltiples beneficios:</p>
+
+							<ul>
+								<li>Creá tu propia red working</li>
+								<li>Contar con apoyo logístico, económico y técnico para realizar actividades dentro de la Rama Estudiantil</li>
+								<li>Participar de reuniones regionales donde es posible encontrar nuevas herramientas</li>
+								<li>Descuentos en aplicaciones, libros, charlas, cursos, conferencias, artículos académicos</li>
+								<li>Facilidad para acceder a becas de grado y posgrado</li>
+								<li>Participar en concursos internacionales</li>
+								<li>Asignar un correo electrónico institucional</li>
+							</ul>
+						</div>
+
+						<div class="articleimg">
+							<a href="https://www.ieee.org/membership/join/index.html"><img src="assets/ieee/join.jpg" alt="Unite a la IEEE"></a>
+						</div>
+
+					</div>
+
+				</article>
+
+
+			</section>
+			
+			<section id="calendario" class="section">
+
+				<h1 class="section-header">Calendario</h1>
+
+				<h4 class="section-description">¡Estas son las actividades que planificamos para este 2021!</h4>
+
+				<article class="article calendar-article">
+	
+					<iframe 
+						src=" https://calendar.google.com/calendar/b/3/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FArgentina%2FCatamarca&amp;src=Z2Q4MW9vbWFzb2ZqZHUwMjRyMGU3bHIzMWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%2370237F&amp;showTabs=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;showDate=1">
+					</iframe> 
+
+
+				</article>
+			</section> 
+		
+		</main>
+		
+		
+		<footer id="contacto">
+
+			<h2 class="groupname">Rama Estudiantil IEEE UNPSJB - Chubut - Argentina - 2021</h2>
+
+			<menu class="contactbar">
+
+				<li class="contactbar-item">
+					<a class="contactbar-link" href="mailto:ieee.unpsjb@gmail.com">
+						<i class="fas fa-envelope fa-custom"></i>ieee.unpsjb@gmail.com
+					</a>
+				</li>
+
+			</menu>
+
+			<menu class="contactbar">
+
+				<li class="contactbar-item">
+					<a class="contactbar-link" href="https://www.facebook.com/R9SACUNPSJBIEEE/" target="_blank">
+						<i class="fab fa-facebook-f fa-custom"></i>Facebook
+					</a>
+				</li>
+
+				<li class="contactbar-item">
+					<a class="contactbar-link" href="https://www.instagram.com/unpsjbieee/" target="_blank">
+						<i class="fab fa-instagram fa-custom"></i>Instagram
+					</a>
+				</li>
+
+				<li class="contactbar-item">
+					<a class="contactbar-link" href="https://github.com/ieeeunpsjb/" target="_blank">
+						<i class="fab fa-github fa-custom"></i>Github
+					</a>
+				</li>
+
+			</menu>
+
+			<a href="http://www.unp.edu.ar/" target="_blank">
+				<img class="unpsjblogo" src="assets/logos/logo2.png" alt="Logo UNPSJB">
+			</a>
+
+		</footer>
+
+		<script src="scripts/carousel.js"></script>	
+		<script src="scripts/hidenavbar.js"></script>
+		
+	</body>
 
 </html>
