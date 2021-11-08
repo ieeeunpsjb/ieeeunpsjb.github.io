@@ -1,0 +1,96 @@
+.normal { 
+ font-family: Verdana, Arial, Helvetica, sans-serif; 
+ font-size: 12px;
+; text-align: justify
+ }
+ a.normal:link {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size : 12px;
+ color :  #58A058;
+}
+.normal-bold-color { 
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 12px; 
+line-height: normal ; 
+font-weight: bold; 
+color: #58A058
+}
+.normalfoosc { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: normal ; font-weight: bold; color: #FFFFFF; background-color: #58A058; text-align: left
+}
+.normal-bold-red { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: normal ; font-weight: bold; color: #FF0000
+}
+.normal-cursiva { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; ; font-style: italic
+}
+.normal-izq { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; ; text-align: left
+}
+.normal-der { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; ; text-align: right
+}
+ .barrasubtit { 
+ font-family: Verdana, Arial, Helvetica, sans-serif; 
+ font-size: 12px; 
+ color: #FFFFFF; 
+ background-color: #58A058; 
+ text-align: right; 
+ vertical-align: middle
+; font-weight: bold; line-height: normal
+ }
+ .menu { 
+ FONT-WEIGHT: bold; 
+ FONT-SIZE: 9px; 
+ COLOR: White; 
+ FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+ TEXT-DECORATION: none; 
+ background-color: #58A058 ; 
+ text-align: center; 
+ vertical-align: middle; 
+ line-height: 25px; 
+ }
+.menu:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: White; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none; background-color: #58A058 ; text-align: center; vertical-align: middle;	line-height : 25px;
+}
+.menu:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #FFFFCC; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none; background-color: #58A058 ; text-align: center; vertical-align: middle;	line-height : 25px;
+}
+.menu:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #FFFFCC ; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none; background-color: #58A058 ; text-align: center; vertical-align: middle;	line-height : 25px;
+}
+ .pie {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 9px;
+text-align: right;
+vertical-align: middle; 
+color: #FFFFFF; 
+line-height: 15px;
+background-color: #58A058
+}
+.big-bold-color { 
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 14px; 
+line-height: 50px; 
+font-weight: bold; 
+color: #58A058 ; 
+text-align: center;
+}
+.lista { 
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 10px; 
+line-height: 5px; 
+font-weight: bold; 
+color: #58A058 ; 
+list-style-type: decimal
+}
+.viñeta { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; list-style-type: disc; line-height: 19px
+}
+.correo { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; ; text-align: center
+}
+.small-center { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; ; text-align: center;
+}
+a.small-center:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; ; text-align: center;color :  #58A058;
+}
+a.small-center:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; ; text-align: center;color :  #58A058;
+}.small-izq { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; ; text-align: left; }
+.fdo-osc { line-height: 1px; background-color: #4A884A }
+.fdo-cro { line-height: 1px; background-color: #DEEDDE}
+.tabla-cro { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: normal ; font-weight: normal; color: #000000; background-color: #DEEDDE; text-align: left }
+.normal-centro { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; ; text-align: centre}
+.normal-bold-blue { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: normal ; font-weight: bold; color: #0000CE}
