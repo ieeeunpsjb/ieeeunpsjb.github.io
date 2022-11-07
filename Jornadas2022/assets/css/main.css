@@ -2671,7 +2671,7 @@ dl {
 
 /* Actions */
 
-ul.actions {
+/* ul.actions {
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -2683,11 +2683,37 @@ ul.actions {
 }
 
 ul.actions li {
-	padding: 0 0 0 1em;
+	/* padding: 0 0 0 1em; 
 	vertical-align: middle;
 }
 
 ul.actions.special {
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	width: 100%;
+	margin-left: 0;
+} */
+ul.special {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	cursor: default;
+	list-style: none;
+	margin-left: -1em;
+	margin-top: 1em;
+	padding-left: 0;
+	gap: 2em;
+}
+
+ul.special li {
+	/* padding: 0 0 0 1em; */
+	vertical-align: middle;
+}
+
+ul.special {
 	-moz-justify-content: center;
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
