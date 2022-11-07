@@ -260,7 +260,7 @@ textarea {
 }
 
 .collapsible:after {
-	content: '+';
+	/* content: '+'; */
 	/* Unicode character for "plus" sign (+) */
 	font-size: 20px;
 	color: white;
@@ -269,7 +269,7 @@ textarea {
 }
 
 .active:after {
-	content: "-";
+	/* content: "-"; */
 	/* Unicode character for "minus" sign (-) */
 }
 
